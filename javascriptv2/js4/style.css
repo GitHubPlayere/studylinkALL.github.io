@@ -1,0 +1,21 @@
+th{
+    border-bottom: 1px solid gray;
+}
+thead{
+background-color: aquamarine;
+}
+.edit,.delete{
+padding: 7px;
+border-radius: 5px;
+color: wheat;
+border: 0;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.edit{
+    background-color:yellow;
+}
+.delete{
+    background-color: red;
+}
+
+

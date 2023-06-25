@@ -1,0 +1,21 @@
+.google{
+    font-size: 20px;
+    font-family: fantasy;
+    color: blue;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0;
+    margin: 20px;
+    background: linear-gradient(45deg, red , yellow, orange);
+}
+.logout{
+   font-size: 20px;
+   font-family: fantasy;
+   color: green;
+   padding: 10px;
+   border-radius: 20px;
+   border: 0;
+   margin: 20px;
+   background: linear-gradient(45deg, aqua , aquamarine, blue); 
+
+}

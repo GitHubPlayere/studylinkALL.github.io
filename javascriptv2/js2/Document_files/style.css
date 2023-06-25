@@ -1,0 +1,11 @@
+.add_form{
+border: 2px dashed blue;
+width: 40%;
+height: 450px;
+margin-left: 30%;
+margin-top: 50px;
+
+}
+body{
+margin: 0;    
+}

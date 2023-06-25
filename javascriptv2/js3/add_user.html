@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1 align="center">Rap battle adolf gitler</h1>    
+<div class="add_form">
+    <form action="">
+        <label name="name"></label>Enter name<br>
+           <input type="text" name="name" id="user_name">
+            <br><br>
+            <label name="lastname">Enter lastname</label><br>
+               <input type="text" name="lastname" id="user_lastname">
+               <br><br>
+              <label name="email">Enter email</label><br>
+            <input type="text" name="email" id="user_email">
+            <br><br>
+            <label name="password">Enter password</label><br>
+        <input type="text" name="password" id="password">
+        <br>
+        <p align="right"><button onclick="add_user()">
+            ADD
+        </button></p>
+    </form>
+</div>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+<script src="add_user.js"></script>
+</body>
+</html>
